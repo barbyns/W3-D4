@@ -19,5 +19,6 @@ function estraiNumero () {
     }  while (numeriEstratti.has(numero));
 numeriEstratti.add(numero);
 document.getElementById("numero-estratto").textContent = numero;
-documento.getElementById("num-" + numero).classList.add("estratto");
+let cellaEstratta = document.getElementById("num-" + numero);
+cellaEstratta.classList.add("estratto");
 }
